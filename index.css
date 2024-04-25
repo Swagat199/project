@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.m-body{
+    background-color: rgb(59, 59, 165);
+    height: 100vh;
+    z-index: 1;
+}
+/* .k{
+    margin-left: 400vw;
+    margin-top:-100x;
+} */
+.heading{
+    text-shadow:  10px 10px 2px rgb(13, 90, 138), 0 0 1em ;
+}
+.heading,.headline
+{   text-align: center;
+    color: wheat;
+    font-size: larger;
+    font-weight: bolder;
+  
+}
+.headline{
+    margin-left: 1vw;
+    text-shadow: rgb(255, 3, 3) 5px 0 10px;
+}
+.container
+{
+    position: relative;
+}
+.wrap
+{ 
+  height: 50vh;
+    width: 49vw;
+    box-shadow: 10px 10px 50px 10px black;
+    position: absolute;
+    left: 29vw;
+    top: 12vh;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.cointainer ,.wholder
+{  
+    display: grid;
+     grid-template-columns: repeat(8,100%); 
+    height: 100%;
+    width: 100%;
+    animation:slider 30s ease-in-out 2s alternate infinite;
+    
+}
+.cointainer #s-i1
+{   
+    background-image: url("Q.png");
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+.cointainer #s-i2
+{   
+    background-image: url("Virat-Kohli-centuries-celebration.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.cointainer #s-i3
+{   
+    background-image: url("i2.webp");
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+.cointainer #s-i4
+{ 
+    background-image: url("i3.webp");
+    background-size: cover;
+    border-radius: 10px;
+    
+} 
+.cointainer #s-i5
+{ 
+    background-image: url("download\ \(3\).jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+} 
+  .cointainer #s-i6
+{ 
+    background-image: url("i6.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+} 
+.cointainer #s-i7
+{ 
+    background-image: url("qoute\ 1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+} 
+.cointainer #s-i8
+{ 
+    background-image: url("qoute\ 3.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+} 
+   .b{
+    background-color: rgb(255, 0, 0);
+    height: 2vh;
+    width: 1vw;
+    border-radius: 5vw;
+    display:inline-block;
+    margin: .3rem;
+ }
+  .cointainer .b
+ {  
+    position: absolute;
+    left: 55%;
+    top: 50%;
+ }  
+ .b-holder
+ {
+    display: absolute;
+    padding-left: 44rem;
+    padding-top: 25rem;
+ }
+  .b :hover
+ {
+    box-shadow: 10px 10px 7px 4px rgb(33, 255, 37);
+ } 
+    @keyframes slider
+  {
+    /* 0%{transform: translateX(100%);}
+      10%{transform: translateX(100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-300%);}
+     50%{transform: translateX(-400%);} 
+     60%{transform: translateX(-500%);}
+    70%{transform: translateX(-600%);}
+    80%{transform: translateX(-700%);}
+    90%{transform: translateX(-800%);}  
+   100%{transform:translateX(-900%);} */
+   0%{transform: translateX(0);}
+   5%{transform: translateX(-100%);}
+      10%{transform: translateX(-100%);}
+      15%{transform: translateX(-200%);}
+      20%{transform: translateX(-200%);}
+      25%{transform: translateX(-300%);}
+    30%{transform: translateX(-300%);}
+    35%{transform: translateX(-400%);}
+    40%{transform: translateX(-500%);}
+    45%{transform: translateX(-600%);}
+    47%{transform: translateX(-600%);}
+55%{transform: translateX(-700%);} 
+    60%{transform: translateX(-700%);}
+    65%{transform: translateX(-600%);}
+    70%{transform: translateX(-500%);}
+    75%{transform: translateX(-400%);}
+    80%{transform: translateX(-300%);}
+    85%{transform: translateX(-300%);}
+    90%{transform: translateX(-200%);}
+    95%{transform: translateX(-100%);}  
+   100%{transform:translateX(0);}
+ } 
+  .main-content
+ {  margin-top: 10vh;
+    height: 150vh;
+    background-image: url("image\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+ } 
+.tagline
+{   text-align: center;
+     color: rgb(223, 237, 237);
+    padding: 5vh;
+    padding-top: 0vh;
+    font-size: 9vh;
+    background-color: transparent;  
+}
+.para
+{   padding-left: 1.7vw;
+    padding-top: 0vh;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    line-height: vh;
+    position: relative;
+    top: -7vh;
+}
+h1{
+    position: relative;
+    top: 4vh;
+    left: -1.5vw;
+}
+.para2
+{
+    position: relative;
+    top:1.5vh;
+    color: rgb(2, 175, 68);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sp1
+{   display: flex;
+    position:relative;
+    top: 3.9vh;
+    line-height: 3.8vh;
+
+}
+h3{
+    display: flex;
+    color: rgb(255, 124, 2);
+    font-weight: bolder;
+    display: flex;
+}
+p{
+    font-size: 2.4vh;
+}
+.shadow
+{
+    text-shadow: rgb(255, 0, 0) 10px 10 10px;
+}
+footer
+{   display: flex;
+    background-color:rgb(41, 70, 70);
+    height:6vh;
+    width: 100%vw;
+ justify-content: center;
+    
+}
+.foot
+{   font-family:'Times New Roman', Times, serif;
+    margin-left: 5vw;
+}
+.dev-name
+{
+    position: relative;
+    right: -10vw;
+    font-weight: bold;
+    color: cadetblue;
+}
